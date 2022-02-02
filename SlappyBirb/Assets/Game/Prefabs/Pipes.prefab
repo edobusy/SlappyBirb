@@ -156,7 +156,6 @@ GameObject:
   - component: {fileID: 8886477998683401527}
   - component: {fileID: 8886477998683401526}
   - component: {fileID: 8886477998683401525}
-  - component: {fileID: 1567821918613725464}
   - component: {fileID: 3996313173332568952}
   m_Layer: 0
   m_Name: PipeUp
@@ -277,32 +276,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 7.1877766}
   m_EdgeRadius: 0
---- !u!61 &1567821918613725464
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8886477998683401523}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.00021886826}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 8}
-    newSize: {x: 2, y: 8}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 7.2115717}
-  m_EdgeRadius: 0
 --- !u!114 &3996313173332568952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -376,7 +349,6 @@ GameObject:
   - component: {fileID: 8886477999736701108}
   - component: {fileID: 8886477999736701107}
   - component: {fileID: 8886477999736701106}
-  - component: {fileID: 8739058800574932539}
   - component: {fileID: 2715523001353147891}
   m_Layer: 0
   m_Name: PipeDown
@@ -496,32 +468,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 7.313508}
-  m_EdgeRadius: 0
---- !u!61 &8739058800574932539
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8886477999736701104}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.051749706}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 8}
-    newSize: {x: 2, y: 8}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 7.313509}
   m_EdgeRadius: 0
 --- !u!114 &2715523001353147891
 MonoBehaviour:
