@@ -28,6 +28,7 @@ public class BirbController : MonoBehaviour
         {
             // Birb Flaps
             Debug.Log("SPACE is pressed");
+            AudioManager.instance.Play("Flap");
             rb.velocity = Vector2.zero;
             rb.AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
             GetComponent<Animator>().SetTrigger("Flap");

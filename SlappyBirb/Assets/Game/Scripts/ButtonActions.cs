@@ -5,31 +5,25 @@ using UnityEngine.SceneManagement;
 
 public class ButtonActions : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void Quit()
     {
+        AudioManager.instance.Play("ButtonPress");
         Application.Quit();
     }
 
     public void Restart()
     {
+        AudioManager.instance.Play("ButtonPress");
         Scene scene = SceneManager.GetActiveScene(); 
         SceneManager.LoadScene(scene.name);
     }
 
     public void StartGame()
     {
+        AudioManager.instance.Play("ButtonPress");
+        AudioManager.instance.Play("MainTheme");
+        AudioManager.instance.Fade("GameTheme", 20f, 0f);
+        AudioManager.instance.Fade("MainTheme", 20f, 0.05f);
         SceneManager.LoadScene(1);
     }
 }

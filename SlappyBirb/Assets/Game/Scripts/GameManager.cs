@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
 
     public void AddPoint()
     {
+        AudioManager.instance.Play("PointUp");
         points++;
     }
 
@@ -35,6 +36,7 @@ public class GameManager : MonoBehaviour
     public void EndGame()
     {
         Debug.Log("Game has ENDED!!! Your final score is " + points);
+        AudioManager.instance.Play("Death");
         endGameMenu.SetActive(true);
         endGameScore.text = points.ToString();
     }

@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &591090377642431534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 591090377642431568}
+  - component: {fileID: 591090377642431569}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &591090377642431568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591090377642431534}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1.8814368}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &591090377642431569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591090377642431534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 119b9d33de8bcfc438d89994d7009524, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixerGroup: {fileID: 24300002, guid: 0863c3493cb48914ca013b2b517b580e, type: 2}
+  sounds:
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: 7ad937672ffd8904f9d03fed49963d02, type: 3}
+    volume: 0
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 0863c3493cb48914ca013b2b517b580e, type: 2}
+    source: {fileID: 0}
+  - name: Flap
+    clip: {fileID: 8300000, guid: c2100c2bcd252764e89805aa40dd49cc, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1.25
+    pitchVariance: 0.55
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 0863c3493cb48914ca013b2b517b580e, type: 2}
+    source: {fileID: 0}
+  - name: GameTheme
+    clip: {fileID: 8300000, guid: 8b3acd1ae26843546b378f5c39ec56e8, type: 3}
+    volume: 0.05
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 0863c3493cb48914ca013b2b517b580e, type: 2}
+    source: {fileID: 0}
+  - name: PointUp
+    clip: {fileID: 8300000, guid: 3fcf9a63bdba277478bc174e500c151c, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 0863c3493cb48914ca013b2b517b580e, type: 2}
+    source: {fileID: 0}
+  - name: ButtonPress
+    clip: {fileID: 8300000, guid: ba4f858230025fd438d4c91e8f1bc1e9, type: 3}
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 0863c3493cb48914ca013b2b517b580e, type: 2}
+    source: {fileID: 0}
+  - name: Death
+    clip: {fileID: 8300000, guid: a262195cc1d3f9f4eb7673097aeb448d, type: 3}
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 0863c3493cb48914ca013b2b517b580e, type: 2}
+    source: {fileID: 0}
